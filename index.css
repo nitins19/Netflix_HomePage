@@ -1,0 +1,73 @@
+body{
+  background-color:rgb(177, 177, 219);
+  box-sizing: border-box;
+  margin:0px;
+  margin-top: 0px;
+}
+
+.heading{
+  text-align:center;
+  color:rgb(14, 182, 98);
+  background-color:white;
+  padding:30px 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 2px;
+  width: auto;
+  display:flex;
+  justify-content: center;
+}
+
+.square{
+  margin:6%;
+  transition:all 0.4s cubic-bezier(0.175,0.885,0,1);
+  background-color: white;
+  width:21.25%;
+  border-radius:12px;
+  box-shadow: 0px 13px 10px -7px rgba(0,0,0,0.1);
+  float:left;
+  
+}
+.square:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.5) ;
+  transform:scale(1.05,1.05);
+}
+
+.img_css{
+  width:100%;
+  height:235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius:12px ;
+}
+.info{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+}
+.Netflix{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:#868686;
+  font-size:13px;
+  
+}
+.seriesname{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+button{
+  font-family: 'Raleway', sans-serif;
+  background-color: white;
+  color:#868686;
+  box-sizing: border-box;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 500px;
+  border:1px solid black;
+ cursor:pointer;
+
+}
